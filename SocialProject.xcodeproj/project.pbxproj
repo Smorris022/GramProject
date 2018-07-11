@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E8E2F796A6229F898513E22 /* libPods-GramProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DF535AB6C2480FBF6B72B /* libPods-GramProject.a */; };
 		A640CA7B1CFA816D00FF7B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A640CA7A1CFA816D00FF7B47 /* main.m */; };
 		A640CA7E1CFA816D00FF7B47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A640CA7D1CFA816D00FF7B47 /* AppDelegate.m */; };
 		A640CA811CFA816D00FF7B47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A640CA801CFA816D00FF7B47 /* ViewController.m */; };
 		A640CA841CFA816D00FF7B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A640CA821CFA816D00FF7B47 /* Main.storyboard */; };
 		A640CA861CFA816D00FF7B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A640CA851CFA816D00FF7B47 /* Assets.xcassets */; };
 		A640CA891CFA816D00FF7B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A640CA871CFA816D00FF7B47 /* LaunchScreen.storyboard */; };
+		A68576961D78E1DE000EFAD4 /* iOSproject.png in Resources */ = {isa = PBXBuildFile; fileRef = A68576951D78E1DE000EFAD4 /* iOSproject.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A640CA761CFA816D00FF7B47 /* GramProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GramProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E981CF2208438BFD6F10410 /* Pods-GramProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramProject/Pods-GramProject.release.xcconfig"; sourceTree = "<group>"; };
+		A640CA761CFA816D00FF7B47 /* SocialProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A640CA7A1CFA816D00FF7B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A640CA7C1CFA816D00FF7B47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A640CA7D1CFA816D00FF7B47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		A640CA851CFA816D00FF7B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A640CA881CFA816D00FF7B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A640CA8A1CFA816D00FF7B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68576951D78E1DE000EFAD4 /* iOSproject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSproject.png; sourceTree = "<group>"; };
+		B68DF535AB6C2480FBF6B72B /* libPods-GramProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GramProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54174C589173DA171A9AAFC /* Pods-GramProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramProject/Pods-GramProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8E2F796A6229F898513E22 /* libPods-GramProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,20 +49,22 @@
 		A640CA6D1CFA816D00FF7B47 = {
 			isa = PBXGroup;
 			children = (
-				A640CA781CFA816D00FF7B47 /* GramProject */,
+				A640CA781CFA816D00FF7B47 /* SocialProject */,
 				A640CA771CFA816D00FF7B47 /* Products */,
+				B001D1D2FE2B5A800626E026 /* Pods */,
+				A9A8650490778CEFD5FFD282 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A640CA771CFA816D00FF7B47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A640CA761CFA816D00FF7B47 /* GramProject.app */,
+				A640CA761CFA816D00FF7B47 /* SocialProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A640CA781CFA816D00FF7B47 /* GramProject */ = {
+		A640CA781CFA816D00FF7B47 /* SocialProject */ = {
 			isa = PBXGroup;
 			children = (
 				A640CA7C1CFA816D00FF7B47 /* AppDelegate.h */,
@@ -68,6 +77,7 @@
 				A640CA8A1CFA816D00FF7B47 /* Info.plist */,
 				A640CA791CFA816D00FF7B47 /* Supporting Files */,
 			);
+			name = SocialProject;
 			path = GramProject;
 			sourceTree = "<group>";
 		};
@@ -75,28 +85,49 @@
 			isa = PBXGroup;
 			children = (
 				A640CA7A1CFA816D00FF7B47 /* main.m */,
+				A68576951D78E1DE000EFAD4 /* iOSproject.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9A8650490778CEFD5FFD282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68DF535AB6C2480FBF6B72B /* libPods-GramProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B001D1D2FE2B5A800626E026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54174C589173DA171A9AAFC /* Pods-GramProject.debug.xcconfig */,
+				3E981CF2208438BFD6F10410 /* Pods-GramProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A640CA751CFA816D00FF7B47 /* GramProject */ = {
+		A640CA751CFA816D00FF7B47 /* SocialProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A640CA8D1CFA816D00FF7B47 /* Build configuration list for PBXNativeTarget "GramProject" */;
+			buildConfigurationList = A640CA8D1CFA816D00FF7B47 /* Build configuration list for PBXNativeTarget "SocialProject" */;
 			buildPhases = (
+				3C4271ECB9BAA895FB850CB2 /* Check Pods Manifest.lock */,
 				A640CA721CFA816D00FF7B47 /* Sources */,
 				A640CA731CFA816D00FF7B47 /* Frameworks */,
 				A640CA741CFA816D00FF7B47 /* Resources */,
+				278A992EC6DB68568B68A9C1 /* Embed Pods Frameworks */,
+				66DEDC5A2778ACB1C011F0E1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GramProject;
+			name = SocialProject;
 			productName = GramProject;
-			productReference = A640CA761CFA816D00FF7B47 /* GramProject.app */;
+			productReference = A640CA761CFA816D00FF7B47 /* SocialProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A640CA711CFA816D00FF7B47 /* Build configuration list for PBXProject "GramProject" */;
+			buildConfigurationList = A640CA711CFA816D00FF7B47 /* Build configuration list for PBXProject "SocialProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A640CA751CFA816D00FF7B47 /* GramProject */,
+				A640CA751CFA816D00FF7B47 /* SocialProject */,
 			);
 		};
 /* End PBXProject section */
@@ -138,12 +169,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				A640CA891CFA816D00FF7B47 /* LaunchScreen.storyboard in Resources */,
+				A68576961D78E1DE000EFAD4 /* iOSproject.png in Resources */,
 				A640CA861CFA816D00FF7B47 /* Assets.xcassets in Resources */,
 				A640CA841CFA816D00FF7B47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278A992EC6DB68568B68A9C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramProject/Pods-GramProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C4271ECB9BAA895FB850CB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66DEDC5A2778ACB1C011F0E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramProject/Pods-GramProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A640CA721CFA816D00FF7B47 /* Sources */ = {
@@ -262,30 +342,32 @@
 		};
 		A640CA8E1CFA816D00FF7B47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54174C589173DA171A9AAFC /* Pods-GramProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GramProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morrs.GramProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SocialProject;
 			};
 			name = Debug;
 		};
 		A640CA8F1CFA816D00FF7B47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E981CF2208438BFD6F10410 /* Pods-GramProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GramProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morrs.GramProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SocialProject;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A640CA711CFA816D00FF7B47 /* Build configuration list for PBXProject "GramProject" */ = {
+		A640CA711CFA816D00FF7B47 /* Build configuration list for PBXProject "SocialProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A640CA8B1CFA816D00FF7B47 /* Debug */,
@@ -294,13 +376,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A640CA8D1CFA816D00FF7B47 /* Build configuration list for PBXNativeTarget "GramProject" */ = {
+		A640CA8D1CFA816D00FF7B47 /* Build configuration list for PBXNativeTarget "SocialProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A640CA8E1CFA816D00FF7B47 /* Debug */,
 				A640CA8F1CFA816D00FF7B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
